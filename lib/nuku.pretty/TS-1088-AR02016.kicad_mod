@@ -229,7 +229,7 @@
 		(uuid "55312f45-0fe7-42a8-be12-9fe37adb56dd")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../lib/nuku.3d/TS-1088-AR02016--3DModel-STEP-269445.STEP"
+	(model "${KIPRJMOD}/../../lib/nuku.3d/TS-1088-AR02016--3DModel-STEP-269445.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

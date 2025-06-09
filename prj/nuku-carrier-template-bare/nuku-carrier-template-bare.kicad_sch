@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad")
 	(paper "A4")
+	(title_block
+		(title "nuku.carrier.template.bare")
+		(date "2025-06-09")
+		(rev "0")
+		(company "Samuel López Asunción")
+		(comment 1 "@supersmau")
+	)
 	(lib_symbols)
 	(bus_alias "CONFIG"
 		(members "CONFIG_CLK" "CONFIG_M0" "CONFIG_M1" "CONFIG_M2" "CONFIG_DONE"
@@ -61,7 +68,7 @@
 			)
 		)
 		(instances
-			(project "nuku-carrier-template"
+			(project "nuku-carrier-template-bare"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
 					(page "4")
 				)
@@ -103,7 +110,7 @@
 			)
 		)
 		(instances
-			(project "nuku-carrier-template"
+			(project "nuku-carrier-template-bare"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
 					(page "3")
 				)
@@ -144,8 +151,28 @@
 				(justify left top)
 			)
 		)
+		(pin "CONFIG_CLK" output
+			(at 157.48 72.39 0)
+			(uuid "ac55db0d-a1ea-4213-a2f6-e66b6f5a2b9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{JTAG}" bidirectional
+			(at 130.81 72.39 180)
+			(uuid "8136664d-f79a-488d-b782-4b70e96a34b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "nuku-carrier-template"
+			(project "nuku-carrier-template-bare"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
 					(page "2")
 				)
@@ -187,7 +214,7 @@
 			)
 		)
 		(instances
-			(project "nuku-carrier-template"
+			(project "nuku-carrier-template-bare"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
 					(page "5")
 				)

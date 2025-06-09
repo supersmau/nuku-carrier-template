@@ -857,7 +857,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../lib/nuku.3d/DF40HC(4.0)-90DS.stp"
+	(model "${KIPRJMOD}/../../lib/nuku.3d/DF40HC(4.0)-90DS.stp"
 		(offset
 			(xyz 0 -5.515 8)
 		)

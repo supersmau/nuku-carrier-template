@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "6aed9819-add3-4c36-9f43-b05e24a21ad2")
 	(paper "A4")
+	(title_block
+		(title "nuku.carrier.template.bare / core-east-34")
+		(date "2025-06-09")
+		(rev "0")
+		(company "Samuel López Asunción")
+		(comment 1 "@supersmau")
+	)
 	(lib_symbols
 		(symbol "nuku:DF40HC(4.0)-90DS-0.4V"
 			(exclude_from_sim no)

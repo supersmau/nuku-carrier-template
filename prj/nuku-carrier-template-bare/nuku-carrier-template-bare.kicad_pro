@@ -475,7 +475,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nuku-carrier-template.kicad_pro",
+    "filename": "nuku-carrier-template-bare.kicad_pro",
     "version": 3
   },
   "net_settings": {
