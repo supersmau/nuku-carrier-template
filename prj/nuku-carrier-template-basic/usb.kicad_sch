@@ -2216,6 +2216,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 81.28 57.15)
+		(end 219.71 146.05)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb937371-3b3c-4ddb-9126-cacdce777f63)
+	)
+	(rectangle
+		(start 200.66 118.11)
+		(end 214.63 125.73)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ee05d93c-aef8-4829-b693-3e5a8803bfb6)
+	)
+	(text "USB-C connector"
+		(exclude_from_sim no)
+		(at 81.28 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "96fc7461-dc9f-4cd0-84de-eac3b0c94c32")
+	)
 	(junction
 		(at 142.24 100.33)
 		(diameter 0)
@@ -2235,7 +2271,7 @@
 		(uuid "2a9fd7bf-f69d-45a0-969e-804d911700ae")
 	)
 	(junction
-		(at 194.31 123.19)
+		(at 191.77 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43bb3302-da0d-4e0f-b178-53862b1d3443")
@@ -2314,7 +2350,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 123.19) (xy 203.2 123.19)
+			(xy 191.77 123.19) (xy 203.2 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2464,7 +2500,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 119.38) (xy 194.31 123.19)
+			(xy 191.77 119.38) (xy 191.77 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2644,7 +2680,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 123.19) (xy 194.31 123.19)
+			(xy 176.53 123.19) (xy 191.77 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2674,7 +2710,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 110.49) (xy 194.31 111.76)
+			(xy 191.77 110.49) (xy 191.77 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3686,7 +3722,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 194.31 110.49 0)
+		(at 191.77 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3695,7 +3731,7 @@
 		(fields_autoplaced yes)
 		(uuid "93df6215-45ba-42d0-883a-92b85482f69e")
 		(property "Reference" "#PWR055"
-			(at 194.31 114.3 0)
+			(at 191.77 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +3740,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 194.31 105.41 0)
+			(at 191.77 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3712,7 +3748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 194.31 110.49 0)
+			(at 191.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3721,7 +3757,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 194.31 110.49 0)
+			(at 191.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3766,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 194.31 110.49 0)
+			(at 191.77 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,15 +4117,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 194.31 115.57 180)
+		(at 191.77 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(uuid "f637c7bb-9c0b-465a-bbb9-84d4322f3e1b")
 		(property "Reference" "R27"
-			(at 196.85 114.2999 0)
+			(at 194.31 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +4134,7 @@
 			)
 		)
 		(property "Value" "1k5"
-			(at 196.85 116.8399 0)
+			(at 194.31 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4107,7 +4143,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 196.088 115.57 90)
+			(at 193.548 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4116,7 +4152,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 115.57 0)
+			(at 191.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4125,7 +4161,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 194.31 115.57 0)
+			(at 191.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4134,7 +4170,7 @@
 			)
 		)
 		(property "LCSC" "C25867"
-			(at 194.31 115.57 0)
+			(at 191.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4143,7 +4179,7 @@
 			)
 		)
 		(property "Mfr. Part" ""
-			(at 194.31 115.57 0)
+			(at 191.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4151,7 +4187,7 @@
 			)
 		)
 		(property "Voltage" ""
-			(at 194.31 115.57 0)
+			(at 191.77 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)

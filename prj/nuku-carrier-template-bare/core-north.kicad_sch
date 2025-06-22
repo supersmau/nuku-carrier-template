@@ -2107,7 +2107,7 @@
 	)
 	(text "CONFIG_PUDC_B"
 		(exclude_from_sim no)
-		(at 107.95 139.7 0)
+		(at 93.98 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4150,7 +4150,7 @@
 		)
 	)
 	(label "IO14_3_P"
-		(at 93.98 139.7 0)
+		(at 114.3 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -500,29 +500,53 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "DIFF_92",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "GTP",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
         "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.15,
         "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "SE_50",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.45,
+        "via_drill": 0.25,
         "wire_width": 6
       }
     ],
@@ -579,6 +603,15 @@
         "SE_50"
       ],
       "/bridge/AD7": [
+        "SE_50"
+      ],
+      "/bridge/USB_DN": [
+        "DIFF_92"
+      ],
+      "/bridge/USB_DP": [
+        "DIFF_92"
+      ],
+      "/config/CLK": [
         "SE_50"
       ],
       "/config/CLK_100MHZ": [
@@ -2075,6 +2108,18 @@
     [
       "22aca606-566f-46e2-8988-2b52cbc03e51",
       "usb"
+    ],
+    [
+      "2ae31e92-d0ba-4f05-a019-7f60bd8e0d7e",
+      "bridge"
+    ],
+    [
+      "7dac40ed-a7ca-4544-9148-bf95ff4c6d66",
+      "config"
+    ],
+    [
+      "cb35697b-7148-4b12-9d2d-66ae29597163",
+      "pmod"
     ]
   ],
   "text_variables": {}

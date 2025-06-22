@@ -1,0 +1,14 @@
+(version 1)
+
+###
+# Clearances to zones
+
+(rule "se_50_to_zone_clearance"
+	(condition "A.NetClass == 'SE_50' && A.Type == 'Track' && B.Type == 'zone'")
+	(constraint clearance (min 0.4mm))
+)
+
+(rule "diff_92_to_zone_clearance"
+	(condition "A.NetClass == 'DIFF_92' && A.Type == 'Track' && B.Type == 'zone'")
+	(constraint clearance (min 0.4mm))
+)

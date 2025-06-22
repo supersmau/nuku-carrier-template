@@ -5538,7 +5538,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05db0b03-5bc0-4129-bf83-1934e3e4fa33")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0110"
 			(at 241.3 41.91 0)
 			(effects
 				(font
@@ -5588,7 +5588,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -5604,7 +5604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1f49d5e7-b049-482f-aa6f-ae5d591c41e0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0119"
 			(at 69.85 38.1 0)
 			(effects
 				(font
@@ -5654,7 +5654,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -5669,7 +5669,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2439a078-b287-4cd7-b8be-88d0f720d570")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0111"
 			(at 210.82 41.91 0)
 			(effects
 				(font
@@ -5719,7 +5719,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -5731,7 +5731,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "27769619-6620-4e6a-bca3-6d14d24a5099")
@@ -5810,7 +5810,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "27d1c4b4-3cca-4d2d-a236-dfc703cbe1a1")
@@ -5995,7 +5995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33172b2f-d99a-452d-a387-11151d89d91b")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0117"
 			(at 181.61 88.9 0)
 			(effects
 				(font
@@ -6045,7 +6045,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -6053,16 +6053,16 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 64.77 104.14 0)
+		(at 69.85 144.78 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "37869c24-d310-4347-bde2-14f04a43e074")
-		(property "Reference" "R6"
-			(at 66.04 111.76 90)
+		(uuid "33993877-ddb0-45e9-b5ea-04cfc9fc4dad")
+		(property "Reference" "R12"
+			(at 67.31 143.5099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6071,7 +6071,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 66.04 100.33 90)
+			(at 67.31 146.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6080,7 +6080,101 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 62.992 104.14 90)
+			(at 68.072 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C11702"
+			(at 69.85 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mfr. Part" ""
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" ""
+			(at 69.85 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b9c094fd-ca92-4c07-8e11-c9673f4119c6")
+		)
+		(pin "1"
+			(uuid "cf2384d5-e7d1-43d2-a0b4-25d3206d1eee")
+		)
+		(instances
+			(project "nuku-carrier-template-basic"
+				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 64.77 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37869c24-d310-4347-bde2-14f04a43e074")
+		(property "Reference" "R6"
+			(at 63.5 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 63.5 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 66.548 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6156,7 +6250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37d49464-fd1f-4cce-9ca9-6902dac18d73")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0108"
 			(at 215.9 160.02 0)
 			(effects
 				(font
@@ -6206,7 +6300,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -6221,7 +6315,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f6c7bc9-2026-4df2-ae06-6f52e50d834d")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0121"
 			(at 54.61 181.61 0)
 			(effects
 				(font
@@ -6271,7 +6365,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -6283,7 +6377,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "44324611-be69-4285-87b6-318b33669149")
@@ -6358,8 +6452,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 57.15 144.78 0)
-		(mirror x)
+		(at 57.15 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6367,7 +6460,7 @@
 		(dnp no)
 		(uuid "4794a59c-5c3d-4b6a-b993-9aee9ab41122")
 		(property "Reference" "R11"
-			(at 58.42 152.4 90)
+			(at 55.88 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6376,7 +6469,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 58.42 140.97 90)
+			(at 55.88 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6385,7 +6478,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 55.372 144.78 90)
+			(at 58.928 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "496e74f2-7943-4ad9-a495-b560288efccb")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0113"
 			(at 69.85 134.62 0)
 			(effects
 				(font
@@ -6496,7 +6589,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -6504,8 +6597,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 52.07 144.78 0)
-		(mirror x)
+		(at 52.07 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6513,7 +6605,7 @@
 		(dnp no)
 		(uuid "4be7fe33-a74d-4951-87cc-8d7b82b32bca")
 		(property "Reference" "R9"
-			(at 53.34 152.4 90)
+			(at 50.8 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6522,7 +6614,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 53.34 140.97 90)
+			(at 50.8 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6531,7 +6623,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 50.292 144.78 90)
+			(at 53.848 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6712,7 +6804,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "53cd914e-d982-435b-928b-a526bd3c45af")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0101"
 			(at 243.84 91.44 0)
 			(effects
 				(font
@@ -6762,7 +6854,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -6770,8 +6862,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 81.28 0)
-		(mirror x)
+		(at 69.85 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6779,7 +6870,7 @@
 		(dnp no)
 		(uuid "54b88166-b5ce-4be2-b861-6a77afe7bfd6")
 		(property "Reference" "R5"
-			(at 71.12 88.9 90)
+			(at 68.58 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6788,7 +6879,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 71.12 77.47 90)
+			(at 68.58 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6797,7 +6888,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.072 81.28 90)
+			(at 71.628 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,104 +6956,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 144.78 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d0f0486-ae0f-4745-bd74-f26b7f199513")
-		(property "Reference" "R12"
-			(at 67.31 143.5099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330"
-			(at 67.31 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.072 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25104"
-			(at 69.85 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. Part" ""
-			(at 69.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Voltage" ""
-			(at 69.85 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "492f30ed-93f2-46ee-91e8-d267d14a1079")
-		)
-		(pin "1"
-			(uuid "5b30d817-dd28-4fbd-86de-219b80677ec3")
-		)
-		(instances
-			(project "nuku-carrier-template"
-				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 64.77 81.28 0)
-		(mirror x)
+		(at 64.77 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -6970,7 +6964,7 @@
 		(dnp yes)
 		(uuid "63baf629-1b53-4310-a544-0b6fef3085fd")
 		(property "Reference" "R3"
-			(at 66.04 88.9 90)
+			(at 63.5 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +6973,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 66.04 77.47 90)
+			(at 63.5 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +6982,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 62.992 81.28 90)
+			(at 66.548 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7056,8 +7050,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 54.61 144.78 0)
-		(mirror x)
+		(at 54.61 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7065,7 +7058,7 @@
 		(dnp no)
 		(uuid "6a2db36e-42fe-46ad-8a7b-8357df6f9961")
 		(property "Reference" "R10"
-			(at 55.88 152.4 90)
+			(at 53.34 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7067,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 55.88 140.97 90)
+			(at 53.34 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7083,7 +7076,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 52.832 144.78 90)
+			(at 56.388 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7143,7 +7136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d0cb26f-8714-473b-ad9f-94722078d91c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0115"
 			(at 69.85 74.93 0)
 			(effects
 				(font
@@ -7193,7 +7186,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -7672,7 +7665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9410f50c-9d99-4517-8e9a-a31db9fd34d7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0116"
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -7722,7 +7715,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -7737,7 +7730,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8683c71-01c9-432a-b7fc-e98670b29d63")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0118"
 			(at 184.15 63.5 0)
 			(effects
 				(font
@@ -7787,7 +7780,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -7804,7 +7797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf899f78-50e1-4ccf-9cbf-c823ac44f2e2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0107"
 			(at 236.22 160.02 0)
 			(effects
 				(font
@@ -7854,7 +7847,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -7862,8 +7855,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 104.14 0)
-		(mirror x)
+		(at 67.31 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7871,7 +7863,7 @@
 		(dnp no)
 		(uuid "c2226c55-cb94-4f73-80fc-6e4eff2c0a12")
 		(property "Reference" "R7"
-			(at 68.58 111.76 90)
+			(at 66.04 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7880,7 +7872,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 68.58 100.33 90)
+			(at 66.04 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7889,7 +7881,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 65.532 104.14 90)
+			(at 69.088 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7965,7 +7957,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c25aed65-fc2f-44a8-a7cb-9894724c1bb5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0120"
 			(at 57.15 134.62 0)
 			(effects
 				(font
@@ -8015,7 +8007,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -8023,8 +8015,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 67.31 81.28 0)
-		(mirror x)
+		(at 67.31 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8032,7 +8023,7 @@
 		(dnp yes)
 		(uuid "c765ebaa-4d0c-4a38-8684-810ae36896be")
 		(property "Reference" "R4"
-			(at 68.58 88.9 90)
+			(at 66.04 88.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8041,7 +8032,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 68.58 77.47 90)
+			(at 66.04 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8050,7 +8041,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 65.532 81.28 90)
+			(at 69.088 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8125,7 +8116,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d719f7f0-9ba5-4bb3-8c9c-f1685f39b0bf")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0114"
 			(at 69.85 120.65 0)
 			(effects
 				(font
@@ -8175,7 +8166,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -8191,7 +8182,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0e4a91d-746f-4c59-af3b-f25a2c5f8db2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0112"
 			(at 203.2 58.42 0)
 			(effects
 				(font
@@ -8241,7 +8232,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -8362,7 +8353,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed3b0746-bec3-4971-8fdf-e3525940323c")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR0109"
 			(at 248.92 58.42 0)
 			(effects
 				(font
@@ -8412,7 +8403,7 @@
 		(instances
 			(project "nuku-carrier-template"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/ef4b559c-b874-49e1-888b-254edf65eaa4"
-					(reference "#PWR?")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -8420,8 +8411,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 69.85 104.14 0)
-		(mirror x)
+		(at 69.85 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -8429,7 +8419,7 @@
 		(dnp yes)
 		(uuid "ee9bb9bd-c050-4577-9624-371fc5bc6232")
 		(property "Reference" "R8"
-			(at 71.12 111.76 90)
+			(at 68.58 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8438,7 +8428,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 71.12 100.33 90)
+			(at 68.58 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8447,7 +8437,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.072 104.14 90)
+			(at 71.628 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)

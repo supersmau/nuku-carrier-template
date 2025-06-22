@@ -12,11 +12,6 @@
 		(comment 1 "@supersmau")
 	)
 	(lib_symbols)
-	(bus_alias "CONFIG"
-		(members "CONFIG_CLK" "CONFIG_M0" "CONFIG_M1" "CONFIG_M2" "CONFIG_DONE"
-			"CONFIG_INIT" "CONFIG_PROG" "CONFIG_CFGBVS"
-		)
-	)
 	(bus_alias "JTAG"
 		(members "JTAG_TMS" "JTAG_TCK" "JTAG_TDI" "JTAG_TDO")
 	)
@@ -152,7 +147,7 @@
 			)
 		)
 		(pin "CONFIG_CLK" output
-			(at 157.48 72.39 0)
+			(at 157.48 71.12 0)
 			(uuid "ac55db0d-a1ea-4213-a2f6-e66b6f5a2b9a")
 			(effects
 				(font
@@ -162,7 +157,7 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 130.81 72.39 180)
+			(at 130.81 71.12 180)
 			(uuid "8136664d-f79a-488d-b782-4b70e96a34b5")
 			(effects
 				(font
