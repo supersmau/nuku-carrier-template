@@ -1,0 +1,314 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad")
+	(paper "A4")
+	(title_block
+		(title "nuku.carrier.template.basic")
+		(date "2025-06-09")
+		(rev "0")
+		(company "Samuel López Asunción")
+		(comment 1 "@supersmau")
+	)
+	(lib_symbols)
+	(bus_alias "CONFIG"
+		(members "CONFIG_CLK" "CONFIG_M0" "CONFIG_M1" "CONFIG_M2" "CONFIG_DONE"
+			"CONFIG_INIT" "CONFIG_PROG" "CONFIG_CFGBVS"
+		)
+	)
+	(bus_alias "JTAG"
+		(members "JTAG_TMS" "JTAG_TCK" "JTAG_TDI" "JTAG_TDO")
+	)
+	(rectangle
+		(start 127 63.5)
+		(end 161.29 127)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 194 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 58ad5a85-abf7-44fc-88b2-a745afe0a8a4)
+	)
+	(sheet
+		(at 73.66 111.76)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "03922103-ca39-46ff-af8e-cc2c8380fe09")
+		(property "Sheetname" "power"
+			(at 73.66 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 73.66 119.9646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nuku-carrier-template-basic"
+				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 99.06)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1507897b-6bf0-4cd8-8ffb-af51fcc8b5a0")
+		(property "Sheetname" "core-north-14"
+			(at 130.81 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "core-north.kicad_sch"
+			(at 130.81 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nuku-carrier-template-basic"
+				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 127)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "22aca606-566f-46e2-8988-2b52cbc03e51")
+		(property "Sheetname" "usb"
+			(at 73.66 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 73.66 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nuku-carrier-template-basic"
+				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 83.82)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6d2c372-f8eb-4b45-9928-87d1b28a3847")
+		(property "Sheetname" "core-east-34"
+			(at 130.81 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "core-east.kicad_sch"
+			(at 130.81 92.0246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nuku-carrier-template-basic"
+				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 68.58)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ef4b559c-b874-49e1-888b-254edf65eaa4")
+		(property "Sheetname" "core-south-0"
+			(at 130.81 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "core-south.kicad_sch"
+			(at 130.81 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CONFIG_CLK" output
+			(at 157.48 72.39 0)
+			(uuid "ac55db0d-a1ea-4213-a2f6-e66b6f5a2b9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{JTAG}" bidirectional
+			(at 130.81 72.39 180)
+			(uuid "8136664d-f79a-488d-b782-4b70e96a34b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "nuku-carrier-template-basic"
+				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 114.3)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5fddfe7-b42d-4071-b0c3-78519ce86dea")
+		(property "Sheetname" "core-west-15"
+			(at 130.81 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "core-west.kicad_sch"
+			(at 130.81 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "nuku-carrier-template-basic"
+				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
