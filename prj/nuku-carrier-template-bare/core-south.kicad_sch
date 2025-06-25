@@ -5239,7 +5239,7 @@
 		)
 		(uuid "a3a94964-7c18-452a-a99a-13b0eb5f3b0c")
 	)
-	(label "MGTP_CLK0_P"
+	(label "MGTP_CLK0_N"
 		(at 191.77 119.38 0)
 		(effects
 			(font

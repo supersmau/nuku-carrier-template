@@ -1690,7 +1690,7 @@
 		(property "Reference" "J4"
 			(at 0 -11 0)
 			(unlocked yes)
-			(layer "F.SilkS" knockout)
+			(layer "F.SilkS")
 			(uuid "3cefe5d9-d686-47c8-87da-acb722ce2699")
 			(effects
 				(font
@@ -1794,7 +1794,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "fbadf58b-c6e0-4ec5-a7c5-c7904a95edbc")
+			(uuid "187aa781-082d-448f-8281-5812f320d961")
 		)
 		(pad "1" smd roundrect
 			(at 1.54 -8.8 90)
@@ -2700,7 +2700,7 @@
 			(net 0)
 			(net_name "")
 			(layer "F.Mask")
-			(uuid "e150480d-37e3-45c3-ae8b-0b5bf251c531")
+			(uuid "09dac822-2abb-4a4f-b937-5ea60b8e7eb9")
 			(name "mask_keepout")
 			(hatch edge 0.5)
 			(connect_pads
@@ -2733,7 +2733,7 @@
 			(net 0)
 			(net_name "")
 			(layer "F.Mask")
-			(uuid "6fad453b-dc1e-433d-b15d-985b85a95a2d")
+			(uuid "d18060c3-cc10-4cd0-b576-3a239277e253")
 			(name "mask_keepout")
 			(hatch edge 0.5)
 			(connect_pads
@@ -2763,7 +2763,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../lib/nuku.3d/DF40HC(4.0)-90DS.stp"
+		(model "${KIPRJMOD}/../../lib/nuku.3d/DF40HC(4.0)-90DS.stp"
 			(offset
 				(xyz 0 -5.515 8)
 			)
@@ -3056,7 +3056,7 @@
 		(property "Reference" "J3"
 			(at 0 -11 270)
 			(unlocked yes)
-			(layer "F.SilkS" knockout)
+			(layer "F.SilkS")
 			(uuid "09439898-2f23-486e-aadc-2a8bfa4f4828")
 			(effects
 				(font
@@ -3160,7 +3160,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "09154847-0dba-4f24-a0f1-f538c2c3d57a")
+			(uuid "e95cf417-50fb-4751-9624-88786463b13a")
 		)
 		(pad "1" smd roundrect
 			(at 1.54 -8.8)
@@ -4066,7 +4066,7 @@
 			(net 0)
 			(net_name "")
 			(layer "F.Mask")
-			(uuid "251f9151-6829-4db5-aa1e-3fa1e8f3f1af")
+			(uuid "8fa2b06f-f9c3-452e-ab5f-e633efd9cf0a")
 			(name "mask_keepout")
 			(hatch edge 0.5)
 			(connect_pads
@@ -4099,7 +4099,7 @@
 			(net 0)
 			(net_name "")
 			(layer "F.Mask")
-			(uuid "ae2c86c0-d1cb-4d08-955c-7dbfcc5518a5")
+			(uuid "d4ef9169-0ebb-4db4-9080-c0764f4a4b58")
 			(name "mask_keepout")
 			(hatch edge 0.5)
 			(connect_pads
@@ -4129,7 +4129,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../lib/nuku.3d/DF40HC(4.0)-90DS.stp"
+		(model "${KIPRJMOD}/../../lib/nuku.3d/DF40HC(4.0)-90DS.stp"
 			(offset
 				(xyz 0 -5.515 8)
 			)
@@ -4387,7 +4387,7 @@
 		(property "Reference" "J2"
 			(at 0 -11 180)
 			(unlocked yes)
-			(layer "F.SilkS" knockout)
+			(layer "F.SilkS")
 			(uuid "ce5c3f9f-3d98-4340-aece-b507e1440283")
 			(effects
 				(font
@@ -4491,7 +4491,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "d41e6cd3-e7b1-4a59-b93d-d17e3a201a90")
+			(uuid "c45a1709-3129-497c-b9ce-35a08f905687")
 		)
 		(pad "1" smd roundrect
 			(at 1.54 -8.8 270)
@@ -5397,7 +5397,7 @@
 			(net 0)
 			(net_name "")
 			(layer "F.Mask")
-			(uuid "5227281e-36e1-4605-8b30-1483307c8942")
+			(uuid "8b2f18bf-2421-4160-8f54-4c0ba85c5703")
 			(name "mask_keepout")
 			(hatch edge 0.5)
 			(connect_pads
@@ -5430,7 +5430,7 @@
 			(net 0)
 			(net_name "")
 			(layer "F.Mask")
-			(uuid "764d7be9-99d9-49ea-877c-55ceddd2a51e")
+			(uuid "83cc4c2a-01b8-4dc8-a516-10a08b9fa6c5")
 			(name "mask_keepout")
 			(hatch edge 0.5)
 			(connect_pads
@@ -5460,7 +5460,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../lib/nuku.3d/DF40HC(4.0)-90DS.stp"
+		(model "${KIPRJMOD}/../../lib/nuku.3d/DF40HC(4.0)-90DS.stp"
 			(offset
 				(xyz 0 -5.515 8)
 			)
@@ -5943,7 +5943,7 @@
 		(property "Reference" "J1"
 			(at 0 -11 90)
 			(unlocked yes)
-			(layer "F.SilkS" knockout)
+			(layer "F.SilkS")
 			(uuid "c3a9bd37-083d-41dd-a6e9-3947a5fd56cf")
 			(effects
 				(font
@@ -6047,7 +6047,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "e3cc4697-3d2b-4ab2-9953-f4b0329f1229")
+			(uuid "fce2845e-5f7e-4496-bbda-e2c1450b12e3")
 		)
 		(pad "1" smd roundrect
 			(at 1.54 -8.8 180)
@@ -6953,7 +6953,7 @@
 			(net 0)
 			(net_name "")
 			(layer "F.Mask")
-			(uuid "3b5bdfa9-5664-4903-80f1-f3165b79eb75")
+			(uuid "58e44134-e6ba-4aa1-83c3-6f683b3f0f9f")
 			(name "mask_keepout")
 			(hatch edge 0.5)
 			(connect_pads
@@ -6986,7 +6986,7 @@
 			(net 0)
 			(net_name "")
 			(layer "F.Mask")
-			(uuid "2f7ec743-8d1e-449c-9b13-bdf8639d7f40")
+			(uuid "f92e198f-378a-495f-8f6e-70dbdbec8bd2")
 			(name "mask_keepout")
 			(hatch edge 0.5)
 			(connect_pads
@@ -7016,7 +7016,7 @@
 			)
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../lib/nuku.3d/DF40HC(4.0)-90DS.stp"
+		(model "${KIPRJMOD}/../../lib/nuku.3d/DF40HC(4.0)-90DS.stp"
 			(offset
 				(xyz 0 -5.515 8)
 			)
@@ -8700,7 +8700,7 @@
 		)
 		(property "Value" "PROG"
 			(at 0 2.8 0)
-			(layer "F.SilkS" knockout)
+			(layer "F.SilkS")
 			(uuid "ec6e515c-92c0-4c63-ac7a-67ae7d39f6d3")
 			(effects
 				(font
@@ -8800,7 +8800,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1a55c491-ed75-413c-ba97-05cf97c9a910")
+			(uuid "c2c18615-bbc8-4440-9ffa-084e58f9c19f")
 		)
 		(fp_line
 			(start -1.8 -1.4)
@@ -8810,7 +8810,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "54f16c75-cc26-4a95-b29e-ab3e1d40b11f")
+			(uuid "8cb7afe7-54e4-4aff-b456-d20d19d1a58c")
 		)
 		(fp_line
 			(start -1.8 1.4)
@@ -8820,7 +8820,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d9be7788-4b08-4cf8-a1f0-985f356c1422")
+			(uuid "78450d2a-077a-48af-bb74-f6d039e385ac")
 		)
 		(fp_line
 			(start -1.8 1.6)
@@ -8830,7 +8830,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c1a2d79d-3b9e-492e-b05b-a2e9cb83aa2d")
+			(uuid "9a7bc708-821c-48b6-98bb-75f2b197a164")
 		)
 		(fp_line
 			(start 1.8 -1.6)
@@ -8840,7 +8840,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "8e78b517-8321-46d6-b834-b83a7b815f2a")
+			(uuid "ec6f9dd4-1495-4a55-a2b7-90f4da349b76")
 		)
 		(fp_line
 			(start 1.8 1.6)
@@ -8850,7 +8850,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fcca993a-4061-4a37-8ffa-d7483f1ac311")
+			(uuid "739367e5-6ca1-4d4c-8546-18b5ae2dc1e0")
 		)
 		(fp_line
 			(start -2.4 -1.8)
@@ -8860,7 +8860,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a1e8402f-75fd-4337-8401-582336940983")
+			(uuid "bba9939d-dd0a-4e58-a3e9-1815ccd32e57")
 		)
 		(fp_line
 			(start -2.4 1.8)
@@ -8870,7 +8870,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2b3a6275-8c17-48ff-b1ae-a36b7c9980f8")
+			(uuid "7f43965b-073e-417d-88c5-a64e920ef59d")
 		)
 		(fp_line
 			(start 2.4 -1.8)
@@ -8880,7 +8880,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "3cb0050c-77cb-4117-9662-d4986977d6d5")
+			(uuid "eff8e45c-b576-469c-b18d-73971e0b671f")
 		)
 		(fp_line
 			(start 2.4 1.8)
@@ -8890,7 +8890,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "64f756ac-3e8a-4c2f-9d0b-0314568635da")
+			(uuid "fe8924ea-a015-4d4a-8c90-1557bc2009cd")
 		)
 		(fp_line
 			(start -1.95 -1.5)
@@ -8900,7 +8900,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7be8beb5-7f72-4cc7-9c0a-3de2fa5e8b16")
+			(uuid "2a7acc53-817f-4587-a6af-4023d1c7a4ca")
 		)
 		(fp_line
 			(start -1.95 1.5)
@@ -8910,7 +8910,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "1539f559-6db2-402c-8187-4d549abce0fc")
+			(uuid "a28004da-cbac-4125-96bb-fe7d6e68a9f2")
 		)
 		(fp_line
 			(start 1.95 -1.5)
@@ -8920,7 +8920,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "983768f2-4137-4e8f-a874-026b8fcadf21")
+			(uuid "4e099ce0-c824-47f0-a28e-eae0956b760c")
 		)
 		(fp_line
 			(start 1.95 1.5)
@@ -8930,7 +8930,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "2d5d2144-f6a3-40fa-b6b0-b8750d22a901")
+			(uuid "5d8b2616-cdee-41cf-9262-bffad6b644fb")
 		)
 		(fp_circle
 			(center 0 0)
@@ -8941,7 +8941,7 @@
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "302bdfe9-1309-4c49-aa70-a86b5fd74efb")
+			(uuid "4acdbb27-921f-4b0c-b2b5-ca71df51d3e0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -2.5 0)
@@ -8973,7 +8973,7 @@
 			(uuid "d5409674-fd26-4545-bbbf-9038670739c3")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/../lib/nuku.3d/TS-1088-AR02016--3DModel-STEP-269445.STEP"
+		(model "${KIPRJMOD}/../../lib/nuku.3d/TS-1088-AR02016--3DModel-STEP-269445.STEP"
 			(offset
 				(xyz 0 0 0)
 			)

@@ -1527,6 +1527,9 @@
       "/core-north-14/IO14_9_P": [
         "DIFF_92"
       ],
+      "/core-south-0/MGTP_CLK0_N": [
+        "GTP"
+      ],
       "/core-south-0/MGTP_CLK0_P": [
         "GTP"
       ],

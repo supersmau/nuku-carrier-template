@@ -63,7 +63,36 @@
           "width": 0.15
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|99250000|102100000|f0de7c12-e571-442e-913b-ab0e305d3c7d|6cad4198-3063-4f41-97ed-d54e5488f89c",
+          ""
+        ],
+        [
+          "hole_clearance|99250000|107900000|0b989c80-8cb7-4f95-97e1-d86d371f9e61|c310c43d-887f-4316-8293-017f087ec883",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|117500000|121000000|bf1c1e99-8565-4619-a76d-3de4ee44f94a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|115247497|119710000|a7646b9f-e1fd-4033-a0df-5e820156bc7a|e19ee887-f4ad-4053-8343-95a208db3391",
+          ""
+        ],
+        [
+          "silk_overlap|115247497|122250000|54961294-11b0-4146-9291-271f6856986a|b4c0210f-cc12-4959-ab40-746d6527bf28",
+          ""
+        ],
+        [
+          "silk_overlap|119730831|121000000|24b3924a-384d-4614-ae0c-8ea7911a30b7|bb175479-9517-49c8-8c90-aa0caba2aa94",
+          ""
+        ],
+        [
+          "silk_overlap|119730831|123540000|a0aa7d1f-3d3c-4d93-bcde-8e7d899806cd|bc9f2f36-4383-4294-9900-b2a70b7b4aef",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -554,6 +583,7 @@
       "version": 4
     },
     "net_colors": {
+      "+1V8": "rgb(255, 140, 61)",
       "+3V3": "rgb(188, 48, 255)"
     },
     "netclass_assignments": {
@@ -1608,6 +1638,9 @@
       "/core-north-14/IO14_9_P": [
         "DIFF_92"
       ],
+      "/core-south-0/MGTP_CLK0_N": [
+        "GTP"
+      ],
       "/core-south-0/MGTP_CLK0_P": [
         "GTP"
       ],
@@ -1921,7 +1954,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "output/bom/base-carrier.csv",
+    "bom_export_filename": "output/bom/bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
