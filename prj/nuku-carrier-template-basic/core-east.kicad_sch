@@ -1938,6 +1938,18 @@
 		)
 	)
 	(rectangle
+		(start 186.69 93.98)
+		(end 196.85 99.06)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 45536b70-f4da-499d-a35b-2a5f2b4ec99e)
+	)
+	(rectangle
 		(start 186.69 58.42)
 		(end 205.74 66.04)
 		(stroke
@@ -3157,7 +3169,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 96.52) (xy 185.42 96.52)
+			(xy 154.94 96.52) (xy 187.96 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4517,7 +4529,7 @@
 	)
 	(hierarchical_label "RESET"
 		(shape input)
-		(at 185.42 96.52 0)
+		(at 187.96 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)

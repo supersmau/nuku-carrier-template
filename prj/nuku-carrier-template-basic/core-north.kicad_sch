@@ -2061,6 +2061,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 186.69 99.06)
+		(end 195.58 104.14)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 71593a58-8f63-4bd4-8c8d-71fb3d3035c2)
+	)
+	(rectangle
+		(start 96.52 149.86)
+		(end 110.49 154.94)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 842a46e1-fc3f-4bbe-933f-a45a115d7f19)
+	)
+	(rectangle
+		(start 186.69 119.38)
+		(end 200.66 124.46)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ddac0096-4278-41f0-b8e0-0a685d8bb717)
+	)
 	(text "CONFIG_PUDC_B"
 		(exclude_from_sim no)
 		(at 91.44 139.7 0)

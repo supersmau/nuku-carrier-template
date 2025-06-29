@@ -3357,7 +3357,7 @@
 		)
 	)
 	(rectangle
-		(start 195.58 66.04)
+		(start 198.12 66.04)
 		(end 209.55 71.12)
 		(stroke
 			(width 0)
@@ -3369,7 +3369,7 @@
 		(uuid 0f48c6c9-b7c0-477c-92f3-d1488857e61c)
 	)
 	(rectangle
-		(start 195.58 99.06)
+		(start 198.12 99.06)
 		(end 209.55 104.14)
 		(stroke
 			(width 0)
@@ -3379,18 +3379,6 @@
 			(type none)
 		)
 		(uuid 1cf604a6-257c-4aae-a71f-e138ca0122e4)
-	)
-	(rectangle
-		(start 179.07 147.32)
-		(end 193.04 154.94)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 25a421d2-35db-4736-8a89-4c38c7ebfda0)
 	)
 	(rectangle
 		(start 50.8 81.28)
@@ -3825,6 +3813,14 @@
 	(no_connect
 		(at 269.24 59.69)
 		(uuid "8864463f-4446-434b-a3f2-f82c7c24e595")
+	)
+	(no_connect
+		(at 179.07 152.4)
+		(uuid "9fa223f1-2bd7-4d51-96e8-aae4c0ccd52c")
+	)
+	(no_connect
+		(at 179.07 149.86)
+		(uuid "a15316d5-2db0-40c5-a470-432570e075e2")
 	)
 	(no_connect
 		(at 179.07 86.36)
@@ -4474,16 +4470,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 149.86) (xy 179.07 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f2b38f-681d-4805-a8b1-2ce4ce47943a")
-	)
-	(wire
-		(pts
 			(xy 218.44 121.92) (xy 218.44 124.46)
 		)
 		(stroke
@@ -4591,16 +4577,6 @@
 			(type default)
 		)
 		(uuid "6b091fc0-d970-4ccf-8fe2-71925639f4dd")
-	)
-	(wire
-		(pts
-			(xy 180.34 152.4) (xy 179.07 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ba43ffa-adc3-43c0-bf8b-646d501dfa11")
 	)
 	(wire
 		(pts
@@ -5904,17 +5880,6 @@
 		)
 		(uuid "5e7a5ba7-4186-4100-8665-6024224c5f91")
 	)
-	(hierarchical_label "PWREN"
-		(shape output)
-		(at 180.34 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9b299a8-7a66-42de-8bb2-3b0dcca34f61")
-	)
 	(hierarchical_label "{JTAG}"
 		(shape bidirectional)
 		(at 199.39 68.58 0)
@@ -5937,17 +5902,6 @@
 		)
 		(uuid "f03ea226-70eb-4b43-b7c8-c2382f6f7acb")
 	)
-	(hierarchical_label "SUSPEND"
-		(shape output)
-		(at 180.34 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fc4f1bd9-1032-4426-aa4a-b451ca69c4eb")
-	)
 	(symbol
 		(lib_id "Memory_EEPROM:93CxxC")
 		(at 50.8 127 0)
@@ -5967,7 +5921,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "M93C56-WDW6TP"
+		(property "Value" "M93C56-WMN6TP"
 			(at 52.9941 119.38 0)
 			(effects
 				(font
@@ -5976,7 +5930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-8_4.4x3mm_P0.65mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 50.8 127 0)
 			(effects
 				(font
@@ -5985,7 +5939,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588932626149756928"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588904334871941120"
 			(at 50.8 127 0)
 			(effects
 				(font
@@ -6003,7 +5957,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2061074"
+		(property "LCSC" "C283453"
 			(at 50.8 127 0)
 			(effects
 				(font
@@ -7688,7 +7642,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2050-IDC-NL_2x05_P1.27mm_Vertical"
+		(property "Footprint" "Connector:Tag-Connect_TC2050-IDC-FP_2x05_P1.27mm_Vertical"
 			(at 250.19 64.77 0)
 			(effects
 				(font

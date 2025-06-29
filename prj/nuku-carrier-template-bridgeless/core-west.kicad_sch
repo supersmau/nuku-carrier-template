@@ -6,13 +6,13 @@
 	(paper "A4")
 	(title_block
 		(title "nuku.carrier.template.basic")
-		(date "2025-06-09")
+		(date "2025-06-28")
 		(rev "0")
 		(company "Samuel López Asunción")
 		(comment 1 "@supersmau")
 	)
 	(lib_symbols
-		(symbol "nuku:DF40HC(4.0)-90DS-0.4V"
+		(symbol "nuku:DF40C-90DS-0.4V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25,7 +25,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "DF40HC(4.0)-90DS-0.4V"
+			(property "Value" "DF40C-90DS-0.4V"
 				(at 0 1.27 0)
 				(effects
 					(font
@@ -34,7 +34,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "nuku:DF40HC(4.0)-90DS-0.4V"
+			(property "Footprint" "nuku:DF40C-90DS-0.4V"
 				(at 0 -116.84 0)
 				(effects
 					(font
@@ -44,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006112253_HRS-Hirose-DF40HC-4-0-90DS-0-4V-51_C597947.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206011716_HRS-Hirose-DF40C-90DS-0-4V-51_C2911197.pdf"
 				(at 0 -119.38 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C597947"
+			(property "LCSC" "C2911197"
 				(at 0 -120.65 0)
 				(effects
 					(font
@@ -73,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DF40HC(4.0)-90DS-0.4V_0_1"
+			(symbol "DF40C-90DS-0.4V_0_1"
 				(rectangle
 					(start 0 0)
 					(end 5.08 -114.3)
@@ -86,7 +86,7 @@
 					)
 				)
 			)
-			(symbol "DF40HC(4.0)-90DS-0.4V_1_1"
+			(symbol "DF40C-90DS-0.4V_1_1"
 				(pin passive line
 					(at -3.81 -1.27 0)
 					(length 3.81)
@@ -1937,18 +1937,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(rectangle
-		(start 186.69 96.52)
-		(end 198.12 101.6)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid f56a8b9c-55bb-4ef6-b3ca-1395f6a22a8e)
-	)
 	(junction
 		(at 163.83 48.26)
 		(diameter 0)
@@ -2230,6 +2218,10 @@
 		(uuid "3ef5198b-3f05-41d5-89f9-ec63e546beaa")
 	)
 	(no_connect
+		(at 182.88 101.6)
+		(uuid "42bae4ea-754a-423e-8dd7-d71a99110417")
+	)
+	(no_connect
 		(at 114.3 73.66)
 		(uuid "4aa2b4e1-f8c3-4654-a618-31dfbff95c49")
 	)
@@ -2266,6 +2258,10 @@
 		(uuid "6e1ed965-44d3-4b8a-ba35-5ba07a226f17")
 	)
 	(no_connect
+		(at 182.88 109.22)
+		(uuid "83441566-f323-4c94-9ac7-6709068dc3ef")
+	)
+	(no_connect
 		(at 182.88 134.62)
 		(uuid "902cf751-b946-46cd-a8f9-592824ed882f")
 	)
@@ -2274,12 +2270,20 @@
 		(uuid "9467018c-e31a-49b1-b732-100a3ba7b75b")
 	)
 	(no_connect
+		(at 182.88 104.14)
+		(uuid "950e0883-869d-45c0-bd48-ac348ba38e8d")
+	)
+	(no_connect
 		(at 114.3 78.74)
 		(uuid "95c187ad-1095-490c-9f2d-5f3bcf0b0578")
 	)
 	(no_connect
 		(at 182.88 55.88)
 		(uuid "9d61301b-3ccb-48cf-aec3-b861516f7fea")
+	)
+	(no_connect
+		(at 182.88 111.76)
+		(uuid "a16f5bb1-7b8d-4fc4-a739-cdd4185bf282")
 	)
 	(no_connect
 		(at 114.3 127)
@@ -2348,42 +2352,6 @@
 	(no_connect
 		(at 114.3 132.08)
 		(uuid "fee5f1ee-cdc1-4e68-8870-817f1ce0484f")
-	)
-	(bus_entry
-		(at 182.88 111.76)
-		(size 2.54 -2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52631f83-3a17-47c7-b432-ab3237dd7a0f")
-	)
-	(bus_entry
-		(at 185.42 106.68)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7337b2ef-739e-425e-913d-e5d79abfb87e")
-	)
-	(bus_entry
-		(at 185.42 99.06)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a121068-6f92-457a-8251-127ac2a6ed5e")
-	)
-	(bus_entry
-		(at 185.42 101.6)
-		(size -2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f12c646d-5e83-43f9-b9c2-969f0e6ceea6")
 	)
 	(wire
 		(pts
@@ -2635,16 +2603,6 @@
 		)
 		(uuid "302bd69f-5521-4c0e-8570-e5f20320f0e1")
 	)
-	(bus
-		(pts
-			(xy 185.42 101.6) (xy 185.42 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "302bf1ba-ee54-422b-a80e-f97f8ebba9b4")
-	)
 	(wire
 		(pts
 			(xy 163.83 43.18) (xy 163.83 45.72)
@@ -2664,16 +2622,6 @@
 			(type default)
 		)
 		(uuid "31f5ded2-0303-48b6-a3d4-2153cf225d73")
-	)
-	(bus
-		(pts
-			(xy 185.42 99.06) (xy 187.96 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34e60a63-6683-450f-89a4-477ea0d07e67")
 	)
 	(wire
 		(pts
@@ -3055,16 +3003,6 @@
 		)
 		(uuid "7102b81d-78dc-45b4-a888-c2006e400724")
 	)
-	(bus
-		(pts
-			(xy 185.42 109.22) (xy 185.42 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72246af3-56e4-44ed-b548-fd9fe6a9a847")
-	)
 	(wire
 		(pts
 			(xy 158.75 60.96) (xy 154.94 60.96)
@@ -3294,16 +3232,6 @@
 			(type default)
 		)
 		(uuid "ad8a20df-a330-455d-8b45-3842286cd49a")
-	)
-	(bus
-		(pts
-			(xy 185.42 106.68) (xy 185.42 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aecfe03f-30e9-464c-88da-27bf928cf055")
 	)
 	(wire
 		(pts
@@ -3985,16 +3913,6 @@
 			)
 		)
 	)
-	(label "UART_CTS#"
-		(at 182.88 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54d7b04a-62a7-46bd-ae0e-f782e43805ac")
-	)
 	(label "IO15_23_N"
 		(at 114.3 66.04 0)
 		(effects
@@ -4135,15 +4053,25 @@
 			)
 		)
 	)
-	(label "UART_TXD"
-		(at 182.88 111.76 180)
+	(label "IO15_10_P"
+		(at 182.88 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "72b51b79-e3eb-494c-abf2-b20f89853a49")
+		(uuid "72216e95-b022-4a22-8dac-0f02581fb3a7")
+		(property "Netclass" "DIFF_92"
+			(at 161.29 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
 	)
 	(label "IO15_6_P"
 		(at 182.88 124.46 180)
@@ -4204,16 +4132,6 @@
 				(justify right bottom)
 			)
 		)
-	)
-	(label "UART_RTS#"
-		(at 182.88 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8347e135-0711-4276-ba12-e68cf3b45169")
 	)
 	(label "IO15_18_N"
 		(at 182.88 81.28 180)
@@ -4375,6 +4293,26 @@
 			)
 		)
 	)
+	(label "IO15_12_P"
+		(at 182.88 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0317c8d-373c-436b-b6e8-605b420792df")
+		(property "Netclass" "DIFF_92"
+			(at 161.29 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
 	(label "IO15_16_P"
 		(at 182.88 86.36 180)
 		(effects
@@ -4394,16 +4332,6 @@
 				(justify left bottom)
 			)
 		)
-	)
-	(label "UART_RXD"
-		(at 182.88 109.22 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a8c5bdaf-5b72-4560-8369-a572d15a708e")
 	)
 	(label "IO15_0"
 		(at 182.88 147.32 180)
@@ -4585,6 +4513,26 @@
 			)
 		)
 	)
+	(label "IO15_10_N"
+		(at 182.88 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb6047ea-ac77-4a40-9067-05375462f183")
+		(property "Netclass" "DIFF_92"
+			(at 161.29 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
+			)
+		)
+	)
 	(label "IO15_3_P"
 		(at 114.3 139.7 0)
 		(effects
@@ -4602,6 +4550,26 @@
 					(italic yes)
 				)
 				(justify right bottom)
+			)
+		)
+	)
+	(label "IO15_12_N"
+		(at 182.88 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e05399ed-2d66-414a-b522-6397a86aaa2f")
+		(property "Netclass" "DIFF_92"
+			(at 161.29 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left bottom)
 			)
 		)
 	)
@@ -4684,17 +4652,6 @@
 				(justify right bottom)
 			)
 		)
-	)
-	(hierarchical_label "{UART}"
-		(shape bidirectional)
-		(at 187.96 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9fbef527-0d31-4151-a50f-a995c9052a43")
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -4960,7 +4917,7 @@
 		)
 	)
 	(symbol
-		(lib_id "nuku:DF40HC(4.0)-90DS-0.4V")
+		(lib_id "nuku:DF40C-90DS-0.4V")
 		(at 146.05 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4977,7 +4934,7 @@
 				)
 			)
 		)
-		(property "Value" "DF40HC(4.0)-90DS-0.4V"
+		(property "Value" "DF40C-90DS-0.4V"
 			(at 148.59 36.83 0)
 			(effects
 				(font
@@ -4985,7 +4942,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nuku:DF40HC(4.0)-90DS-0.4V"
+		(property "Footprint" "nuku:DF40C-90DS-0.4V"
 			(at 146.05 156.21 0)
 			(effects
 				(font
@@ -4995,7 +4952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006112253_HRS-Hirose-DF40HC-4-0-90DS-0-4V-51_C597947.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206011716_HRS-Hirose-DF40C-90DS-0-4V-51_C2911197.pdf"
 			(at 146.05 158.75 0)
 			(effects
 				(font
@@ -5014,7 +4971,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C597947"
+		(property "LCSC" "C2911197"
 			(at 146.05 39.37 0)
 			(effects
 				(font

@@ -1,0 +1,66 @@
+(version 1)
+
+
+###
+# Tracks
+
+(rule "se_50"
+	(layer outer)
+	(condition "A.NetClass == 'SE_50' || A.NetClass == 'ETH_RX' || A.NetClass == 'ETH_TX' || A.NetClass == 'USB_BR'")
+	(constraint track_width (opt 0.15mm))
+)
+
+(rule "diff_92"
+	(layer outer)
+	(condition "A.NetClass == 'DIFF_92'|| A.NetClass == 'MDI' || A.NetClass == 'GTP' ")
+	(constraint track_width (opt 0.15mm))
+	(constraint diff_pair_gap (opt 0.2mm))
+)
+
+
+###
+# Clearances to GND
+
+(rule "se_50_to_gnd_clearance"
+	(condition "(A.NetClass == 'SE_50' || A.NetClass == 'ETH_RX' || A.NetClass == 'ETH_TX' || A.NetClass == 'USB_BR') && A.Type == 'Track' && B.Type == 'zone'")
+	(constraint clearance (min 0.4mm))
+)
+
+(rule "diff_92_to_gnd_clearance"
+	(condition "A.NetClass == 'DIFF_92' && A.Type == 'Track' && B.Type == 'zone'")
+	(constraint clearance (min 0.4mm))
+)
+
+(rule "mdi_to_gnd_clearance"
+	(condition "A.NetClass == 'MDI' && A.Type == 'Track' && B.Type == 'zone' && B.NetName == 'GND'")
+	(constraint clearance (min 1mm))
+)
+
+(rule "gtp_to_gnd_clearance"
+	(condition "A.NetClass == 'GTP' && A.Type == 'Track' && B.Type == 'zone'")
+	(constraint clearance (min 0.5mm))
+)
+
+
+###
+# Length / skew
+
+(rule "eth_rx_length"
+	(condition "A.NetClass == 'ETH_RX'")
+	(constraint length (min 39.8mm) (opt 40mm) (max 40.2mm))
+)
+
+(rule "eth_tx_length"
+	(condition "A.NetClass == 'ETH_TX'")
+	(constraint length (min 25.8mm) (opt 26mm) (max 26.2mm))
+)
+
+(rule "usb_br_length"
+	(condition "A.NetClass == 'USB_BR'")
+	(constraint length (min 11.4mm) (opt 11.6mm) (max 11.8mm))
+)
+
+(rule "mdi_length"
+	(condition "A.NetClass == 'MDI'")
+	(constraint length (min 12mm) (opt 18mm) (max 24mm))
+)

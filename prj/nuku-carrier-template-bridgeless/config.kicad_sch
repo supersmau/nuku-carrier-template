@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "nuku.carrier.template.basic")
-		(date "2025-06-09")
+		(date "2025-06-28")
 		(rev "0")
 		(company "Samuel López Asunción")
 		(comment 1 "@supersmau")
@@ -1431,7 +1431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "03fb6d62-159f-46ed-8407-73b06dfa996a")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR038"
 			(at 143.51 125.73 0)
 			(effects
 				(font
@@ -1481,7 +1481,7 @@
 		(instances
 			(project "nuku-carrier-template-basic"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/7dac40ed-a7ca-4544-9148-bf95ff4c6d66"
-					(reference "#PWR048")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -1497,7 +1497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "17655d29-58b9-40c5-9f55-79a5c00d1c69")
-		(property "Reference" "C23"
+		(property "Reference" "C7"
 			(at 170.18 109.2199 0)
 			(effects
 				(font
@@ -1576,7 +1576,7 @@
 		(instances
 			(project "nuku-carrier-template-basic"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/7dac40ed-a7ca-4544-9148-bf95ff4c6d66"
-					(reference "C23")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -1591,7 +1591,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1bd7c7fd-c212-44fb-bf04-a262a6fa9413")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR039"
 			(at 173.99 109.22 0)
 			(effects
 				(font
@@ -1641,7 +1641,7 @@
 		(instances
 			(project "nuku-carrier-template-basic"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/7dac40ed-a7ca-4544-9148-bf95ff4c6d66"
-					(reference "#PWR049")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -1656,7 +1656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6e0753b8-84e8-4f81-82cb-67f478934e36")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR040"
 			(at 173.99 121.92 0)
 			(effects
 				(font
@@ -1706,7 +1706,7 @@
 		(instances
 			(project "nuku-carrier-template-basic"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/7dac40ed-a7ca-4544-9148-bf95ff4c6d66"
-					(reference "#PWR050")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -1722,7 +1722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71633892-1778-40d2-aa11-cb7c89641743")
-		(property "Reference" "U5"
+		(property "Reference" "U2"
 			(at 129.54 95.25 0)
 			(effects
 				(font
@@ -1819,7 +1819,7 @@
 		(instances
 			(project "nuku-carrier-template-basic"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/7dac40ed-a7ca-4544-9148-bf95ff4c6d66"
-					(reference "U5")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1834,7 +1834,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fc29077-a464-49b3-ab8d-6ff660586919")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR036"
 			(at 115.57 95.25 0)
 			(effects
 				(font
@@ -1884,7 +1884,7 @@
 		(instances
 			(project "nuku-carrier-template-basic"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/7dac40ed-a7ca-4544-9148-bf95ff4c6d66"
-					(reference "#PWR046")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -1899,7 +1899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b238bd5b-f55a-4176-bca7-2538736e3a16")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR037"
 			(at 143.51 105.41 0)
 			(effects
 				(font
@@ -1949,7 +1949,7 @@
 		(instances
 			(project "nuku-carrier-template-basic"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/7dac40ed-a7ca-4544-9148-bf95ff4c6d66"
-					(reference "#PWR047")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -1965,7 +1965,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2a7f1f3-8e8b-428c-ab2f-39233044c11d")
-		(property "Reference" "U6"
+		(property "Reference" "U3"
 			(at 189.23 99.06 0)
 			(effects
 				(font
@@ -2036,7 +2036,7 @@
 		(instances
 			(project "nuku-carrier-template-basic"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/7dac40ed-a7ca-4544-9148-bf95ff4c6d66"
-					(reference "U6")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2051,7 +2051,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc18d2ee-fde8-4681-bcc1-850df574058e")
-		(property "Reference" "R41"
+		(property "Reference" "R28"
 			(at 109.22 95.25 0)
 			(effects
 				(font
@@ -2130,7 +2130,7 @@
 		(instances
 			(project "nuku-carrier-template-basic"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/7dac40ed-a7ca-4544-9148-bf95ff4c6d66"
-					(reference "R41")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -2146,7 +2146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8d98aef-9366-4361-bb47-ec53c0b98696")
-		(property "Reference" "C22"
+		(property "Reference" "C6"
 			(at 147.32 109.2199 0)
 			(effects
 				(font
@@ -2225,7 +2225,7 @@
 		(instances
 			(project "nuku-carrier-template-basic"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad/7dac40ed-a7ca-4544-9148-bf95ff4c6d66"
-					(reference "C22")
+					(reference "C6")
 					(unit 1)
 				)
 			)

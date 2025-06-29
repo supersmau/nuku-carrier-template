@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "nuku.carrier.template.basic")
-		(date "2025-06-09")
+		(date "2025-06-28")
 		(rev "0")
 		(company "Samuel López Asunción")
 		(comment 1 "@supersmau")
@@ -74,26 +74,6 @@
 		)
 		(uuid "4c061994-3bbd-4bfe-954b-9c4bb0836967")
 	)
-	(wire
-		(pts
-			(xy 101.6 76.2) (xy 106.68 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ab9b5bf-7a02-4b6d-8132-fcee0f156442")
-	)
-	(bus
-		(pts
-			(xy 133.35 105.41) (xy 142.24 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f77178f-f797-4d7e-bee4-8ed04ec700c7")
-	)
 	(bus
 		(pts
 			(xy 133.35 73.66) (xy 142.24 73.66)
@@ -123,16 +103,6 @@
 			(type default)
 		)
 		(uuid "c86fc1fb-6e31-479e-97bf-6a2136adc7ba")
-	)
-	(wire
-		(pts
-			(xy 101.6 73.66) (xy 106.68 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c1d914-2449-4ad0-9c80-0d90347db524")
 	)
 	(wire
 		(pts
@@ -189,7 +159,7 @@
 			)
 		)
 		(instances
-			(project "nuku-carrier-template-basic"
+			(project "nuku-carrier-template-bridgeless"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
 					(page "6")
 				)
@@ -251,153 +221,9 @@
 			)
 		)
 		(instances
-			(project "nuku-carrier-template-basic"
+			(project "nuku-carrier-template-bridgeless"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 74.93 71.12)
-		(size 26.67 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "22aca606-566f-46e2-8988-2b52cbc03e51")
-		(property "Sheetname" "usb"
-			(at 74.93 70.4084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "usb.kicad_sch"
-			(at 74.93 79.3246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "USB_DN" bidirectional
-			(at 101.6 76.2 0)
-			(uuid "00bd43aa-5066-4fdf-81d4-ae08d9400e0d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_DP" bidirectional
-			(at 101.6 73.66 0)
-			(uuid "1e9b04ae-4f99-47f1-a2f9-becc24e18c20")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "nuku-carrier-template-basic"
-				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 106.68 71.12)
-		(size 26.67 38.1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2ae31e92-d0ba-4f05-a019-7f60bd8e0d7e")
-		(property "Sheetname" "bridge"
-			(at 106.68 70.4084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "bridge.kicad_sch"
-			(at 106.68 109.8046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "USB_DN" bidirectional
-			(at 106.68 76.2 180)
-			(uuid "0de83ebe-feff-4a43-bde5-56a1a4717fd0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_DP" bidirectional
-			(at 106.68 73.66 180)
-			(uuid "de1475ec-89c6-4431-9865-8cb06eb9e3f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "{JTAG}" bidirectional
-			(at 133.35 73.66 0)
-			(uuid "d6b89997-eb2f-456a-8641-78757e11af85")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "{UART}" bidirectional
-			(at 133.35 105.41 0)
-			(uuid "ec038d00-12c7-4290-b9b2-54e4b58c08af")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "nuku-carrier-template-basic"
-				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
-					(page "8")
 				)
 			)
 		)
@@ -467,9 +293,61 @@
 			)
 		)
 		(instances
-			(project "nuku-carrier-template-basic"
+			(project "nuku-carrier-template-bridgeless"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
-					(page "9")
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 71.12)
+		(size 26.67 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "972ce0b4-5201-4723-8eca-2b6f7e79e9a9")
+		(property "Sheetname" "jtag"
+			(at 106.68 70.4084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "jtag.kicad_sch"
+			(at 106.68 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "{JTAG}" bidirectional
+			(at 133.35 73.66 0)
+			(uuid "03d97dbc-d90d-4359-9110-adcea1915737")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "nuku-carrier-template-bridgeless"
+				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
+					(page "7")
 				)
 			)
 		)
@@ -559,7 +437,7 @@
 			)
 		)
 		(instances
-			(project "nuku-carrier-template-basic"
+			(project "nuku-carrier-template-bridgeless"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
 					(page "3")
 				)
@@ -651,9 +529,9 @@
 			)
 		)
 		(instances
-			(project "nuku-carrier-template-basic"
+			(project "nuku-carrier-template-bridgeless"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
-					(page "10")
+					(page "9")
 				)
 			)
 		)
@@ -713,7 +591,7 @@
 			)
 		)
 		(instances
-			(project "nuku-carrier-template-basic"
+			(project "nuku-carrier-template-bridgeless"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
 					(page "2")
 				)
@@ -754,18 +632,8 @@
 				(justify left top)
 			)
 		)
-		(pin "{UART}" bidirectional
-			(at 142.24 105.41 180)
-			(uuid "7b0e2414-fca9-4271-a695-d25f992da4c7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
-			(project "nuku-carrier-template-basic"
+			(project "nuku-carrier-template-bridgeless"
 				(path "/15e0a42f-48e0-4a5d-9b6b-7d249ffc02ad"
 					(page "5")
 				)

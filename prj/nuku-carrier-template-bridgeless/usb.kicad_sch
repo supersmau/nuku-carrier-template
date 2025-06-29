@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a4facf6f-2adc-4d59-96e1-8846db915d18")
+	(paper "A4")
+	(title_block
+		(title "nuku.carrier.template.basic")
+		(date "2025-06-09")
+		(rev "0")
+		(company "Samuel López Asunción")
+		(comment 1 "@supersmau")
+	)
+	(lib_symbols)
+)
