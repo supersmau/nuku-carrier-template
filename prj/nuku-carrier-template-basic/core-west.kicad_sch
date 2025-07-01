@@ -12,7 +12,7 @@
 		(comment 1 "@supersmau")
 	)
 	(lib_symbols
-		(symbol "nuku:DF40HC(4.0)-90DS-0.4V"
+		(symbol "nuku:DF40C-90DS-0.4V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25,7 +25,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "DF40HC(4.0)-90DS-0.4V"
+			(property "Value" "DF40C-90DS-0.4V"
 				(at 0 1.27 0)
 				(effects
 					(font
@@ -34,7 +34,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "nuku:DF40HC(4.0)-90DS-0.4V"
+			(property "Footprint" "nuku:DF40C-90DS-0.4V"
 				(at 0 -116.84 0)
 				(effects
 					(font
@@ -44,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006112253_HRS-Hirose-DF40HC-4-0-90DS-0-4V-51_C597947.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206011716_HRS-Hirose-DF40C-90DS-0-4V-51_C2911197.pdf"
 				(at 0 -119.38 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C597947"
+			(property "LCSC" "C2911197"
 				(at 0 -120.65 0)
 				(effects
 					(font
@@ -73,7 +73,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DF40HC(4.0)-90DS-0.4V_0_1"
+			(symbol "DF40C-90DS-0.4V_0_1"
 				(rectangle
 					(start 0 0)
 					(end 5.08 -114.3)
@@ -86,7 +86,7 @@
 					)
 				)
 			)
-			(symbol "DF40HC(4.0)-90DS-0.4V_1_1"
+			(symbol "DF40C-90DS-0.4V_1_1"
 				(pin passive line
 					(at -3.81 -1.27 0)
 					(length 3.81)
@@ -4960,7 +4960,7 @@
 		)
 	)
 	(symbol
-		(lib_id "nuku:DF40HC(4.0)-90DS-0.4V")
+		(lib_id "nuku:DF40C-90DS-0.4V")
 		(at 146.05 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4985,7 +4985,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nuku:DF40HC(4.0)-90DS-0.4V"
+		(property "Footprint" "nuku:DF40C-90DS-0.4V"
 			(at 146.05 156.21 0)
 			(effects
 				(font
@@ -4995,7 +4995,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006112253_HRS-Hirose-DF40HC-4-0-90DS-0-4V-51_C597947.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206011716_HRS-Hirose-DF40C-90DS-0-4V-51_C2911197.pdf"
 			(at 146.05 158.75 0)
 			(effects
 				(font
@@ -5014,12 +5014,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C597947"
-			(at 146.05 39.37 0)
+		(property "LCSC" "C2911197"
+			(at 146.05 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)

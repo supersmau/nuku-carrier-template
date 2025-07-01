@@ -12,7 +12,131 @@
 		(comment 1 "@supersmau")
 	)
 	(lib_symbols
-		(symbol "DF40HC(4.0)-90DS-0.4V_1"
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "nuku:DF40C-90DS-0.4V"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -25,7 +149,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "DF40HC(4.0)-90DS-0.4V"
+			(property "Value" "DF40C-90DS-0.4V"
 				(at 0 1.27 0)
 				(effects
 					(font
@@ -34,7 +158,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Footprint" "nuku:DF40HC(4.0)-90DS-0.4V"
+			(property "Footprint" "nuku:DF40C-90DS-0.4V"
 				(at 0 -116.84 0)
 				(effects
 					(font
@@ -44,7 +168,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006112253_HRS-Hirose-DF40HC-4-0-90DS-0-4V-51_C597947.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206011716_HRS-Hirose-DF40C-90DS-0-4V-51_C2911197.pdf"
 				(at 0 -119.38 0)
 				(effects
 					(font
@@ -63,7 +187,7 @@
 					(hide yes)
 				)
 			)
-			(property "LCSC" "C597947"
+			(property "LCSC" "C2911197"
 				(at 0 -120.65 0)
 				(effects
 					(font
@@ -73,7 +197,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "DF40HC(4.0)-90DS-0.4V_1_0_1"
+			(symbol "DF40C-90DS-0.4V_0_1"
 				(rectangle
 					(start 0 0)
 					(end 5.08 -114.3)
@@ -86,7 +210,7 @@
 					)
 				)
 			)
-			(symbol "DF40HC(4.0)-90DS-0.4V_1_1_1"
+			(symbol "DF40C-90DS-0.4V_1_1"
 				(pin passive line
 					(at -3.81 -1.27 0)
 					(length 3.81)
@@ -1700,130 +1824,6 @@
 						)
 					)
 					(number "46"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4368,16 +4368,6 @@
 			(justify left bottom)
 		)
 		(uuid "78b64a48-bcff-48ab-ad69-4533ec9ec3b0")
-		(property "Netclass" "DIFF_92"
-			(at 135.89 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right bottom)
-			)
-		)
 	)
 	(label "IO14_15_P"
 		(at 114.3 93.98 0)
@@ -5227,8 +5217,7 @@
 		)
 	)
 	(symbol
-		(lib_name "DF40HC(4.0)-90DS-0.4V_1")
-		(lib_id "nuku:DF40HC(4.0)-90DS-0.4V")
+		(lib_id "nuku:DF40C-90DS-0.4V")
 		(at 146.05 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5253,7 +5242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nuku:DF40HC(4.0)-90DS-0.4V"
+		(property "Footprint" "nuku:DF40C-90DS-0.4V"
 			(at 146.05 156.21 0)
 			(effects
 				(font
@@ -5263,7 +5252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2006112253_HRS-Hirose-DF40HC-4-0-90DS-0-4V-51_C597947.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2206011716_HRS-Hirose-DF40C-90DS-0-4V-51_C2911197.pdf"
 			(at 146.05 158.75 0)
 			(effects
 				(font
@@ -5282,12 +5271,13 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C597947"
-			(at 146.05 39.37 0)
+		(property "LCSC" "C2911197"
+			(at 146.05 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)

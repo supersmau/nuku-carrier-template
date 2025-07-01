@@ -5924,9 +5924,9 @@
 		(at 138.43 93.98 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "edac80ff-23f2-4161-9474-0684586bf20f")
 		(property "Reference" "R23"
 			(at 140.97 92.7099 0)

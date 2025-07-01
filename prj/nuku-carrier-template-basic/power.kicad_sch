@@ -3741,9 +3741,9 @@
 		(at 100.33 110.49 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "edac80ff-23f2-4161-9474-0684586bf20f")
 		(property "Reference" "R20"
 			(at 102.87 109.2199 0)

@@ -22,8 +22,8 @@
 		(members "UART_TXD" "UART_RXD" "UART_RTS#" "UART_CTS#")
 	)
 	(rectangle
-		(start 138.43 66.04)
-		(end 172.72 139.7)
+		(start 128.27 66.04)
+		(end 162.56 139.7)
 		(stroke
 			(width 0)
 			(type dash)
@@ -36,7 +36,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 121.92) (xy 177.8 121.92)
+			(xy 158.75 121.92) (xy 167.64 121.92)
 		)
 		(stroke
 			(width 0)
@@ -46,7 +46,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 125.73) (xy 177.8 125.73)
+			(xy 158.75 125.73) (xy 167.64 125.73)
 		)
 		(stroke
 			(width 0)
@@ -56,7 +56,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 119.38) (xy 177.8 119.38)
+			(xy 158.75 119.38) (xy 167.64 119.38)
 		)
 		(stroke
 			(width 0)
@@ -66,7 +66,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 88.9) (xy 177.8 88.9)
+			(xy 158.75 88.9) (xy 167.64 88.9)
 		)
 		(stroke
 			(width 0)
@@ -76,7 +76,7 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 73.66) (xy 142.24 73.66)
+			(xy 123.19 73.66) (xy 132.08 73.66)
 		)
 		(stroke
 			(width 0)
@@ -86,7 +86,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 73.66) (xy 177.8 73.66)
+			(xy 158.75 73.66) (xy 167.64 73.66)
 		)
 		(stroke
 			(width 0)
@@ -96,7 +96,7 @@
 	)
 	(bus
 		(pts
-			(xy 168.91 128.27) (xy 177.8 128.27)
+			(xy 158.75 128.27) (xy 167.64 128.27)
 		)
 		(stroke
 			(width 0)
@@ -106,7 +106,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 91.44) (xy 177.8 91.44)
+			(xy 158.75 91.44) (xy 167.64 91.44)
 		)
 		(stroke
 			(width 0)
@@ -116,7 +116,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 132.08) (xy 177.8 132.08)
+			(xy 158.75 132.08) (xy 167.64 132.08)
 		)
 		(stroke
 			(width 0)
@@ -125,7 +125,7 @@
 		(uuid "fce4b103-1d35-4d4c-8f23-dd831e9424eb")
 	)
 	(sheet
-		(at 106.68 55.88)
+		(at 96.52 55.88)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -141,7 +141,7 @@
 		)
 		(uuid "03922103-ca39-46ff-af8e-cc2c8380fe09")
 		(property "Sheetname" "power"
-			(at 106.68 55.1684 0)
+			(at 96.52 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -150,7 +150,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 106.68 64.0846 0)
+			(at 96.52 64.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,7 +167,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 86.36)
+		(at 132.08 86.36)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -183,7 +183,7 @@
 		)
 		(uuid "1507897b-6bf0-4cd8-8ffb-af51fcc8b5a0")
 		(property "Sheetname" "core-north-14"
-			(at 142.24 85.6484 0)
+			(at 132.08 85.6484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -192,7 +192,7 @@
 			)
 		)
 		(property "Sheetfile" "core-north.kicad_sch"
-			(at 142.24 94.5646 0)
+			(at 132.08 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -201,7 +201,7 @@
 			)
 		)
 		(pin "CLK" input
-			(at 168.91 91.44 0)
+			(at 158.75 91.44 0)
 			(uuid "a6915069-95ce-4a0c-b26c-430a16b09bb0")
 			(effects
 				(font
@@ -211,7 +211,7 @@
 			)
 		)
 		(pin "{CONFIG}" bidirectional
-			(at 168.91 88.9 0)
+			(at 158.75 88.9 0)
 			(uuid "84f926cc-cad0-49ab-8f19-2ae5e9d9f25a")
 			(effects
 				(font
@@ -229,7 +229,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 71.12)
+		(at 167.64 71.12)
 		(size 26.67 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -245,7 +245,7 @@
 		)
 		(uuid "7dac40ed-a7ca-4544-9148-bf95ff4c6d66")
 		(property "Sheetname" "config"
-			(at 177.8 70.4084 0)
+			(at 167.64 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -254,7 +254,7 @@
 			)
 		)
 		(property "Sheetfile" "config.kicad_sch"
-			(at 177.8 94.5646 0)
+			(at 167.64 94.5646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -263,7 +263,7 @@
 			)
 		)
 		(pin "CLK" output
-			(at 177.8 91.44 180)
+			(at 167.64 91.44 180)
 			(uuid "b5f626b8-d4f6-436f-82ed-a48a79f66167")
 			(effects
 				(font
@@ -273,7 +273,7 @@
 			)
 		)
 		(pin "CONFIG_CLK" input
-			(at 177.8 73.66 180)
+			(at 167.64 73.66 180)
 			(uuid "f677118c-d240-4721-a519-91b60a92d0b1")
 			(effects
 				(font
@@ -283,7 +283,7 @@
 			)
 		)
 		(pin "{CONFIG}" bidirectional
-			(at 177.8 88.9 180)
+			(at 167.64 88.9 180)
 			(uuid "45c135d6-680e-4e19-8b83-1b7858de71be")
 			(effects
 				(font
@@ -301,7 +301,7 @@
 		)
 	)
 	(sheet
-		(at 106.68 71.12)
+		(at 96.52 71.12)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -317,7 +317,7 @@
 		)
 		(uuid "972ce0b4-5201-4723-8eca-2b6f7e79e9a9")
 		(property "Sheetname" "jtag"
-			(at 106.68 70.4084 0)
+			(at 96.52 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,7 +326,7 @@
 			)
 		)
 		(property "Sheetfile" "jtag.kicad_sch"
-			(at 106.68 79.3246 0)
+			(at 96.52 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -335,7 +335,7 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 133.35 73.66 0)
+			(at 123.19 73.66 0)
 			(uuid "03d97dbc-d90d-4359-9110-adcea1915737")
 			(effects
 				(font
@@ -353,7 +353,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 116.84)
+		(at 132.08 116.84)
 		(size 26.67 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -369,7 +369,7 @@
 		)
 		(uuid "a6d2c372-f8eb-4b45-9928-87d1b28a3847")
 		(property "Sheetname" "core-east-34"
-			(at 142.24 116.1284 0)
+			(at 132.08 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -378,7 +378,7 @@
 			)
 		)
 		(property "Sheetfile" "core-east.kicad_sch"
-			(at 142.24 135.2046 0)
+			(at 132.08 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -387,7 +387,7 @@
 			)
 		)
 		(pin "PMOD_A[4..1]" bidirectional
-			(at 168.91 121.92 0)
+			(at 158.75 121.92 0)
 			(uuid "205690c2-68b9-48ed-8043-a5a95c44dda7")
 			(effects
 				(font
@@ -397,7 +397,7 @@
 			)
 		)
 		(pin "PMOD_A[10..7]" bidirectional
-			(at 168.91 119.38 0)
+			(at 158.75 119.38 0)
 			(uuid "e11b0964-c84b-4fa3-8bac-659765db5821")
 			(effects
 				(font
@@ -407,7 +407,7 @@
 			)
 		)
 		(pin "PMOD_B[4..1]" bidirectional
-			(at 168.91 128.27 0)
+			(at 158.75 128.27 0)
 			(uuid "bc99f612-a052-4c74-99f6-52473c4d3dc9")
 			(effects
 				(font
@@ -417,7 +417,7 @@
 			)
 		)
 		(pin "PMOD_B[10..7]" bidirectional
-			(at 168.91 125.73 0)
+			(at 158.75 125.73 0)
 			(uuid "fa00000e-32c0-4cd1-bfc1-d6d9eda22b66")
 			(effects
 				(font
@@ -427,7 +427,7 @@
 			)
 		)
 		(pin "RESET" input
-			(at 168.91 132.08 0)
+			(at 158.75 132.08 0)
 			(uuid "6e5b95eb-c7ff-4849-bbda-a93dc864a359")
 			(effects
 				(font
@@ -445,7 +445,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 116.84)
+		(at 167.64 116.84)
 		(size 26.67 17.78)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -461,7 +461,7 @@
 		)
 		(uuid "cb35697b-7148-4b12-9d2d-66ae29597163")
 		(property "Sheetname" "pmod"
-			(at 177.8 116.1284 0)
+			(at 167.64 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +470,7 @@
 			)
 		)
 		(property "Sheetfile" "pmod.kicad_sch"
-			(at 177.8 135.2046 0)
+			(at 167.64 135.2046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -479,7 +479,7 @@
 			)
 		)
 		(pin "PMOD_A[4..1]" bidirectional
-			(at 177.8 121.92 180)
+			(at 167.64 121.92 180)
 			(uuid "a01275cf-bfdd-4f49-8430-8174bb044ba2")
 			(effects
 				(font
@@ -489,7 +489,7 @@
 			)
 		)
 		(pin "PMOD_A[10..7]" bidirectional
-			(at 177.8 119.38 180)
+			(at 167.64 119.38 180)
 			(uuid "e46ffb40-6d6b-41dc-9c63-9a771ac76aef")
 			(effects
 				(font
@@ -499,7 +499,7 @@
 			)
 		)
 		(pin "PMOD_B[4..1]" bidirectional
-			(at 177.8 128.27 180)
+			(at 167.64 128.27 180)
 			(uuid "6615f85d-6572-4c48-9503-41d2a02a4493")
 			(effects
 				(font
@@ -509,7 +509,7 @@
 			)
 		)
 		(pin "PMOD_B[10..7]" bidirectional
-			(at 177.8 125.73 180)
+			(at 167.64 125.73 180)
 			(uuid "6ef69243-85be-4e12-b69a-39dee790e75c")
 			(effects
 				(font
@@ -519,7 +519,7 @@
 			)
 		)
 		(pin "RESET" output
-			(at 177.8 132.08 180)
+			(at 167.64 132.08 180)
 			(uuid "cf0ea381-4da6-494d-adf4-68d3086ed5e6")
 			(effects
 				(font
@@ -537,7 +537,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 71.12)
+		(at 132.08 71.12)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -553,7 +553,7 @@
 		)
 		(uuid "ef4b559c-b874-49e1-888b-254edf65eaa4")
 		(property "Sheetname" "core-south-0"
-			(at 142.24 70.4084 0)
+			(at 132.08 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,7 +562,7 @@
 			)
 		)
 		(property "Sheetfile" "core-south.kicad_sch"
-			(at 142.24 79.3246 0)
+			(at 132.08 79.3246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -571,7 +571,7 @@
 			)
 		)
 		(pin "CONFIG_CLK" output
-			(at 168.91 73.66 0)
+			(at 158.75 73.66 0)
 			(uuid "ac55db0d-a1ea-4213-a2f6-e66b6f5a2b9a")
 			(effects
 				(font
@@ -581,7 +581,7 @@
 			)
 		)
 		(pin "{JTAG}" bidirectional
-			(at 142.24 73.66 180)
+			(at 132.08 73.66 180)
 			(uuid "8136664d-f79a-488d-b782-4b70e96a34b5")
 			(effects
 				(font
@@ -599,7 +599,7 @@
 		)
 	)
 	(sheet
-		(at 142.24 101.6)
+		(at 132.08 101.6)
 		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -615,7 +615,7 @@
 		)
 		(uuid "f5fddfe7-b42d-4071-b0c3-78519ce86dea")
 		(property "Sheetname" "core-west-15"
-			(at 142.24 100.8884 0)
+			(at 132.08 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -624,7 +624,7 @@
 			)
 		)
 		(property "Sheetfile" "core-west.kicad_sch"
-			(at 142.24 109.8046 0)
+			(at 132.08 109.8046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
